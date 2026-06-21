@@ -65,6 +65,23 @@ export default function Hero() {
 
         {/* Right Column: SuperPOD Allocation Console */}
         <div className="lg:col-span-5 reveal">
+          {/* Profile Portrait — Airbnb style */}
+          <div className="hero-portrait" style={{ position: "relative", marginBottom: "1.5rem" }}>
+            <div className="hero-portrait-wrap reveal">
+              <img src="assets/sai.jpg" alt="Sai Likhith" />
+              <div className="hero-portrait-frame"></div>
+            </div>
+            <div className="hero-badge hero-badge-1 reveal">
+              <span className="star">★</span>
+              <span>4.99 · 55 reviews from analysts</span>
+            </div>
+            <div className="hero-badge hero-badge-2 reveal">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#76b900"
+                stroke="none"><path d="M12 2.5l2.4 7.4H22l-6.2 4.5 2.4 7.4-6.2-4.6-6.2 4.6 2.4-7.4L2 9.9h7.6z"/></svg>
+              <span><b>Superhost</b><br /><small style={{ color: "#a1a1aa", fontWeight: "400" }}>7 years running</small></span>
+            </div>
+          </div>
+
           <div className="border border-zinc-800/80 bg-zinc-950/80 rounded-xl p-6 shadow-2xl relative overflow-hidden backdrop-blur-xl">
             {/* Glossy top-light */}
             <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#76b900]/40 to-transparent"></div>
